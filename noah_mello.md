@@ -1,13 +1,53 @@
-anything
+2/9
 notes in this file as demonstrated by my instructor:
 File Paths:
- Absolute start with /, inlcudes all directories between root and current
- Relative - start with .(current), ..(back), or ~(home), specifies location of a file relative to current
-Some Commands: 
-pwd - shows current terminal
-man macse - manual
-{} -h - help with that command
-ls - list, with -F (shows / to separate directories and * on ends of scripts)
-clear - clear the terminal
-cd - change directory, move current directory to wherever you say
-echo - repeat what you type
+    Absolute start with /, inlcudes all directories between root and current
+    Relative - start with .(current), ..(back), or ~(home), specifies location of a file relative to current
+ Some Commands: 
+    pwd - shows current terminal
+    man [] - manual
+    [] -h - help with that command
+    ls - list, with -F (shows / to separate directories and * on ends of scripts), with -a (show hidden files), with -l (additional info)
+    clear - clear the terminal
+    cd - change directory, move current directory to wherever you say
+    echo - repeat what you type
+
+2/16
+Some commands
+    mkdir [name] - make directory with name []
+    mkdir [name1]/[name2]/etc - make directory 2 within directory 1
+    mkdir -p [name],[name] - make directories if parents dont exist
+    rmdir - remove directory
+    mv - move file (can be used to move, rename, or both)
+        ex: mv bad_name good_name      - renames it
+            mv ../notes.txt ~/notebook  - rename and move
+            mv /tmp/data . move file to current directory
+    cp - copy, with -R for directory, works like mv
+    touch - creates a file
+    rm - remove files/directories PERMANENTLY,
+        need -R for directories
+    cat - combine files (and view)
+    > - redirect output of command to file, overwriting
+    >> - redirect output to file, adding to it
+    head - show first 10 lines of file
+    tail - show last 10 lines of file
+        both with -n[] to show only [] amount of lines
+    ctrl + c - cancel command if its running a lot
+    * - wildcard, will match any characters
+    ls | wc - number of stuff
+    
+
+LAB 3 - Exercises
+    3a. Ways to change directories 
+        1. cd
+        2. cd ~
+        3. cd../../..
+    3b. How many programs in /bin
+        1922 Files
+    1. Commands to find files with letters
+        1. ls c*
+        2. ls *a*
+        3. ls *o
+        Bonus. ls *a* *c*
+    3c. Command used to find .fastq files
+        1. ls /home/users/ntm1021/gen711-811/shell_data/untrimmed_fastq
