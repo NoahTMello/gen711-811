@@ -51,3 +51,16 @@ LAB 3 - Exercises
         Bonus. ls *a* *c*
     3c. Command used to find .fastq files
         1. ls /home/users/ntm1021/gen711-811/shell_data/untrimmed_fastq
+
+2/23
+less: scrollable file viewer
+    suitable for large files or long lines
+    Scroll with arrows, Q to exit, G to end, g to beginning
+nano: text editor
+    suitable for quick edits
+    Ctrl+X to exit
+*: wildcard command
+    can match any character or amount of characters
+grep: useful for finding contents with given term
+    syntac follows: grep (term)
+
