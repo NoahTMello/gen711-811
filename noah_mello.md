@@ -62,5 +62,20 @@ nano: text editor
 *: wildcard command
     can match any character or amount of characters
 grep: useful for finding contents with given term
-    syntac follows: grep (term)
+    syntac follows: grep (term) (pattern) (files)
+    -B (#) before, -A (#) after
+    -o prints oly matching
+    -v non matching
+ stdin : input into a progra,
+ stdout : output of a program
+ Piping: forcing output of one command to be the input of another - uses |
+ wc - word count, gives #lines, #words, #bytes
+    with -l shows only lines, -w only words, -c only bytes
+ Useful piping commands
+ sort - sort lines of stdin, 
+     with -h for readable numbers
+ uniq - removed duplicate lines IF SORTED, 
+     with -c shows how many ties that line occurred, -d to only print duplicates, and -u for only lines with no duplicates
+
+3/1
 
