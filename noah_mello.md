@@ -79,3 +79,25 @@ grep: useful for finding contents with given term
 
 3/1
 
+cut - print selected parts of input based on tabs
+    w/ -d [] changes delimeter from /t to []
+    w/ -f [] selects [fields]
+wget [url] downloads file from internet using HTTP
+wget -0 [filename] [url] downloads and puts in output file
+ls -l shows permissions
+chmod - change mode, permissions of selected files
+    w/ -r, recursive to all files in specified directory
+target u: user, g: group, o: other, a: all 3
+    +: add, -: remove
+    r: read, w: write, x: exacutable
+^c - kill running command
+^z - pause running command
+fg - continue paused command
+bg - continue paused command in background
+top - show running processes and resources used
+q to quit
+ps - show current running processes
+    w/ -aux to show all processes on machine'
+
+3/8
+
