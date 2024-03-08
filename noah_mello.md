@@ -100,4 +100,18 @@ ps - show current running processes
     w/ -aux to show all processes on machine'
 
 3/8
-
+tmux - a new session terminal
+    you can start stuff in tmux and leave it, and it will continue stuff - like a background terminal
+    tmux new -s [name] , opens new tmux session
+ctrl + b then shift + ' opens a second terminal below
+ctrl + b, then % , opens new terminal frame on side
+ctrl + b then X , kills a frame
+ctrl + b then d - leaves tmux session
+ctrl + b then arrow keys, moves frames
+tmux list-sessions , lists all running tmux sessions
+tmux attach -t [session name], opens preexisting session
+tmux -list commands , lists all tmux commands
+tmux kill-session -t [name] , kill session
+conda: manages different stuff in the computer
+conda deactivate - leave conda
+conda activate base - open conda base
