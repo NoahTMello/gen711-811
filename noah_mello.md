@@ -114,4 +114,4 @@ tmux -list commands , lists all tmux commands
 tmux kill-session -t [name] , kill session
 conda: manages different stuff in the computer
 conda deactivate - leave conda
-conda activate base - open conda base
+conda activate base - open conda based
